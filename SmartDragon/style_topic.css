@@ -1,0 +1,46 @@
+main.topic-page {
+  max-width: 700px;
+  margin: 50px auto 80px;
+  padding: 20px 30px;
+  background-color: #111111;
+  border: 2px solid #FFD700;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #FFD700bb;
+  color: #FFD700;
+  font-family: 'Orbitron', sans-serif;
+}
+
+main.topic-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.6rem;
+  user-select: none;
+  text-shadow:
+    0 0 12px #FFD700bb,
+    0 0 18px #FFD700ee;
+}
+
+.topic-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #FFD700cc;
+  user-select: none;
+}
+
+.topic-content {
+  white-space: pre-wrap;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #fff159;
+  margin-bottom: 20px;
+}
+
+.topic-date {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #ccc966;
+  user-select: none;
+}
